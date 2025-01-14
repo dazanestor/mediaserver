@@ -1,7 +1,7 @@
 FROM debian:bookworm-slim
 ARG aptcacher=""
 ARG VERSION=3.19.2
-ARG TZ=America/Chicago
+ARG TZ=Europe/Madrid
 ARG WG=false
 
 LABEL maintainer="edgd1er <edgd1er@htomail.com>" \
